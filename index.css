@@ -7,6 +7,7 @@
 /* Custom CSS properties */
 :root {
     --font-color: #0B0223;
+    --primary-color: rgba(213, 21, 159, 0.963);
 }
 
 
@@ -36,6 +37,10 @@
 .logo h1 {
     font-size: 3rem;
     color: var(--font-color);
+}
+
+.logo span {
+    color: var(--primary-color);
 }
 
 .links {
@@ -106,11 +111,35 @@
 }
 
 
+
+
+
+
+
 /* Responsive CSS commands for tablets */
 
 @media screen and (min-width:425px) and (max-width:769px) {
 
-
+    .nav-bar {
+        height: 250px;
+        justify-content: space-around;
+        align-items: center;
+        width: 80vw;
+    }
     
+    .logo {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+    
+    .links {
+        flex-direction: column;
+    }
+    
+
     
 }
