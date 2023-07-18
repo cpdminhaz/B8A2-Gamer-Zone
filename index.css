@@ -61,3 +61,46 @@
 .links div:hover {
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive CSS commands for Mobiles */
+
+@media screen and (max-width:426px) {
+
+    /* Navigation Section Responsive */
+.nav-bar {
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+}
+
+.logo {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+.links {
+    flex-direction: column;
+}
+
+
+
+
+
+}
