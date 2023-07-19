@@ -178,6 +178,15 @@
     width: 100%;
 }
 
+.video:hover {
+    border: 3px solid var(--primary-color);
+    border-radius: 15px;
+    filter: brightness(.25)
+}
+
+
+
+
 /* Play Games Styles */
 .play-game {
     height: 520px;
@@ -573,25 +582,28 @@
         font-size: .7rem;
         text-align: center;
     }
+
     /* Game Types Styles */
-.game-types {
-    height: 250px;
-    width: 80vw;
-    padding-top: 100px;
-    padding-bottom: 40px;
-}
+    .game-types {
+        height: 250px;
+        width: 80vw;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
 
-.games {
-    height: 45px;
-    width: 100px;
+    .games {
+        height: 45px;
+        width: 100px;
 
-}
-.game-types img {
-    height: 20px;
-}
-.game-types p {
-    font-size: .8rem;
-}
+    }
+
+    .game-types img {
+        height: 20px;
+    }
+
+    .game-types p {
+        font-size: .8rem;
+    }
 
 }
 
