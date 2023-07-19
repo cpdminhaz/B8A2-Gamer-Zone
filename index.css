@@ -241,6 +241,63 @@
     color: transparent;
     background-clip: text;
 }
+/* Game Types Styles */
+.game-types {
+    background-color: rebeccapurple;
+    height: 250px;
+}
+
+
+
+
+
+/* Footer Styles */
+.footer-container {
+    height: 400px;
+    background-color: #0B0223;
+    display: flex;
+    flex-direction: column;justify-content: space-evenly;
+}
+.footer {
+    height: 200px;
+    width: 45vw;
+    margin: 0 auto;
+    color: white;
+}
+
+
+.footer-logo {
+    display: flex;justify-content: center;align-items: center;gap: 10px; color: white
+    ;margin-top: 10px;
+}
+.footer-logo span {
+    color:var(--primary-color);
+}
+.footer-logo img {
+    height: 40px;
+}
+.footer-anchors {
+    display: flex;justify-content: space-evenly;margin-top: 10px;
+}
+.footer-anchors a {
+    text-decoration: none;color:white;font-size: .7rem;
+}
+
+.footer-icons {
+    display: flex;justify-content: center;gap: 10px;margin-top: 25px;
+}
+
+.footer-x {
+            display: flex;justify-content: space-evenly;margin-top: 5px;
+}
+
+.footer-x a {
+    text-decoration: none;color: white;font-size: .7rem;
+}
+
+.footer p {
+    display: flex;justify-content: center;font-size: .7rem;color: white;margin-top: 20px;
+}
 
 
 
